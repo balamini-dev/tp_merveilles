@@ -1,0 +1,131 @@
+#customers{
+	border-collapse:collapse;
+}
+
+#customers td, #customers th {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+}
+
+#customers tr:nth-child(even){background-color:  rgb(182, 112, 232) ;}
+
+#customers .ligne:hover {
+	background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgba(250,140,2,0.3);
+}
+
+#bloc1{
+	background-color: rgba(231, 63, 37);
+	border: 2px solid #000;
+}
+
+#bloc2{
+	background-color: rgba(0,255,0,0.3);
+	width: 100%;
+}
+
+#bloc3{
+	background-color: rgba(255,255,0,0.3);
+	font-family: 'Oswald', sans-serif;
+	width: 100%;
+}
+
+#bloc3a{
+	background-color: grey;
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+}
+
+#bloc4{
+	background-color: rgba(255,0,255,0.3);
+}
+
+#bloc5{
+	background-color: rgb(255, 195, 77);
+	border: 2px solid #000;
+}
+
+#bloc3 ul :hover{
+	background-color: pink;
+	
+}
+
+#bloc3 ul{
+	list-style-image: url("https://mdn.mozillademos.org/files/11981/starsolid.gif");
+
+}
+#toutContaint{
+	display: flex;
+}
+
+#containt2{
+	display: flex;
+}
+
+#footer{
+	display: flex;
+	list-style:none;
+	padding-left: 30%;
+	padding-right: 30%;
+
+}
+
+nav ul li{
+	list-style: none;
+	width: 25%;
+	text-align: center;
+	border: 1px;
+	border-style: solid;
+}
+
+nav ul{
+	display: flex;
+	justify-content: space-around;
+	background-color: #f1f1f1;
+	padding: 0;
+}
+
+nav ul li:hover{
+	background-color: #423d3c;
+}
+
+.liennav{
+	text-decoration: none;
+	color: rgba(231, 63, 37);
+	width: 25%;
+}
+
+@media screen and (max-width: 600px) {
+	#bloc4{
+		display: none;
+	}
+
+	#containt{
+		flex-direction: column;
+	}
+
+	#bloc2, #bloc3, #bloc3a {
+		width: 100%;
+	}
+
+	#bloc3a {
+		display: none;
+	}
+}
+
+  table{
+    margin-left:auto; 
+    margin-right:auto;
+  }
+
+  #bloc4 h2{
+  	text-align: center;
+  }
